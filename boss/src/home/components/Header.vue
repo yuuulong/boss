@@ -1,6 +1,7 @@
 <template>
   <div class="header">
     <img class="header-img" src="/imgs/home-search-text.png" alt="">
+    
     <form class="header-form">
     <input class="header-input" type="text" placeholder="搜索职位/公司">
     <button class="header-btn">搜索</button>
@@ -31,6 +32,8 @@ export default {
     line-height 1.5rem
     border-radius 2.5rem
     .header-input
+      color #999
+      font-size .8rem
       line-height 1.5rem
       width 75%
       border none
